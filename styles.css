@@ -1,0 +1,142 @@
+body {
+	background-color: grey;
+	font-family: "Comic Neue", cursive;
+}
+
+.main {
+	margin: auto;
+	margin-top: 5rem;
+	width: 800px;
+}
+
+.center {
+	background-color: white;
+	box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+	padding: 2rem;
+	margin: auto;
+}
+
+.heading {
+	padding: 1rem;
+	background-size: 110px 110px;
+	background-image: url("https://multimedia.infojobs.net/api/v1/tenants/c7e2b9c1-8480-43b0-ad9e-000c17aa2cbb/domains/718302b6-5343-43d3-a8a3-829dc3da0893/buckets/6f3ab1cc-5920-4f4e-b131-46a4587a0e1f/images/d1/d1fab91c-8d90-4688-bcff-fb50b5efae5c?jwt=eyJhbGciOiJSUzI1NiJ9.eyJpYXQiOjE1ODI1NzU3NzcsImV4cCI6MTgwMTU1NzkwMCwicnFzIjoiR0VUXFwvdGVuYW50cy9jN2UyYjljMS04NDgwLTQzYjAtYWQ5ZS0wMDBjMTdhYTJjYmIvZG9tYWlucy83MTgzMDJiNi01MzQzLTQzZDMtYThhMy04MjlkYzNkYTA4OTMvYnVja2V0cy82ZjNhYjFjYy01OTIwLTRmNGUtYjEzMS00NmE0NTg3YTBlMWYvaW1hZ2VzL2QxL2QxZmFiOTFjLThkOTAtNDY4OC1iY2ZmLWZiNTBiNWVmYWU1YyIsIm1ldGFkYXRhIjp7InJ1bGUiOnsidmVyc2lvbiI6IjIwMTYtMTAiLCJhY3Rpb25zIjpbXX19fQ.kmA925Z_ddcKizZXUjtwIjqZyQetoT8ztNP6Fzlezva22ltsCIAK01a3WHhSH1NobQuhzY03keapGZDnitjC-WKuDTCSKPr3Sdmht3bwPtp2M1xRg708TXYBOLkhBFUqNPrt_zPfZwEfjW91El3zh0T3vu8GqYqxCyR5FtZgmU-boTbUxLEvc4p46-yjZHkBdbbEzdOiY1Uxmg4ouwLlCU5ItG2vARwgFpoLYlYuCafK2QxdoXYcbgXS2nOGpyncGiD3BCBov5IL3CHQ5k84M2iCQOA9JrlYEBLZAgKpAMgOT_ddQfTUm0SIMYSZjwgHKtNHELCrm4Gymk3XV-QHSg&AccessKeyId=d724d9a53d95a810");
+	background-repeat: no-repeat;
+	background-position: right center;
+}
+
+h1 {
+	font-size: 3rem;
+	padding: 3rem;
+}
+
+button {
+	font-family: inherit;
+	display: inline-block;
+	outline: 0;
+	cursor: pointer;
+	padding: 5px 16px;
+	font-size: 14px;
+	font-weight: 500;
+	line-height: 20px;
+	vertical-align: middle;
+	border: 1px solid;
+	border-radius: 6px;
+	color: #ffffff;
+	background-color: #2ea44f;
+	border-color: #1b1f2326;
+	box-shadow: rgba(27, 31, 35, 0.04) 0px 1px 0px 0px, rgba(255, 255, 255, 0.25) 0px 1px 0px 0px inset;
+	transition: 0.2s cubic-bezier(0.3, 0, 0.5, 1);
+	transition-property: color, background-color, border-color;
+	margin-top: 2rem;
+}
+
+button:hover {
+	background-color: #2c974b;
+	border-color: #1b1f2326;
+	transition-duration: 0.1s;
+}
+
+#spec {
+	resize: none;
+	height: 10rem;
+	padding-top: 5%;
+}
+
+.block {
+	display: flex;
+}
+
+.block-half {
+	padding: 3rem;
+	box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px 0px;
+	width: 50%;
+}
+
+.search {
+	position: relative;
+	font-size: 16px;
+}
+
+input::placeholder,
+textarea::placeholder {
+	font-family: "Comic Neue", cursive;
+	font-size: 1rem;
+	font-weight: normal;
+}
+
+.search input,
+textarea {
+	width: 100%;
+	height: 4rem;
+}
+
+.search input,
+textarea {
+	text-indent: 1rem;
+}
+
+.search .fa {
+	position: absolute;
+	top: 35%;
+}
+
+.search .fa {
+	left: 80%;
+}
+
+input,
+textarea {
+	box-sizing: border-box;
+	font-family: inherit;
+	font-size: 14px;
+	vertical-align: baseline;
+	font-weight: 400;
+	line-height: 1.29;
+	letter-spacing: 0.16px;
+	border-radius: 0;
+	outline: 2px solid transparent;
+	outline-offset: -2px;
+	width: 100%;
+	height: 40px;
+	border: none;
+	border-bottom: 1px solid #8d8d8d;
+	background-color: #f4f4f4;
+	padding: 0 16px;
+	color: #161616;
+	transition: background-color 70ms cubic-bezier(0.2, 0, 0.38, 0.9), outline 70ms cubic-bezier(0.2, 0, 0.38, 0.9);
+}
+
+input:focus {
+	outline: 2px solid #0f62fe;
+	outline-offset: -2px;
+}
+
+.marg {
+	margin-top: 0.5rem;
+}
+
+.footer {
+	text-align: center;
+	padding: 2rem;
+}
+
